@@ -1,0 +1,65 @@
+/* REGLA Nº1 */
+body {
+    margin: 0;
+  }
+  
+  /* REGLA Nº2 */
+  #header {
+    height: 100vh;
+    background-image: url('img/disco_cara_cruz.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 0 20%;
+    font-size: 50px;
+    text-shadow: 0 0 20px black;
+  }
+  
+  /* REGLA Nº3 */
+  #header h1 {
+    color: white;
+    margin: 0;
+    padding: 0 20%;
+    font-size: 50px;
+    text-shadow: 0 0 20px black;
+  }
+  
+  /* REGLA Nº4 */
+  #main {
+    padding: 0 20%;
+  }
+  
+  /* REGLA Nº5 */
+  #main p {
+    font-size: 20px;
+  }
+  
+  /* REGLA Nº6 */
+  #main h1 {
+    font-size: 40px;
+  }
+  
+  /* REGLA Nº7 */
+  iframe {
+    height: 330px;
+    width: 100%;
+  }
+  
+  /* REGLA Nº8 */
+  #spoiler h2 {
+    font-family: 'BhuTuka Expanded One';
+  }
+  
+  /* REGLA Nº9 */
+  img {
+    width: 100%;
+  }
+  
+  /* REGLA Nº10 */
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
