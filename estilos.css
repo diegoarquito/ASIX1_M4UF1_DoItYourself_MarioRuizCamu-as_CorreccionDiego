@@ -1,65 +1,53 @@
-/* REGLA Nº1 */
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
+/* REGLA 1 */
 body {
     margin: 0;
-  }
-  
-  /* REGLA Nº2 */
-  #header {
-    height: 100vh;
-    background-image: url('img/disco_cara_cruz.jpg');
+}
+/* REGLA 2 */
+#header {
+    height: 110vh;
+    background-image: url(../img/disco\ cara\ y\ cruz.jpg);
     background-position: center;
     background-size: cover;
     color: white;
-    margin: 0;
-    padding: 0 20%;
-    font-size: 50px;
-    text-shadow: 0 0 20px black;
-  }
-  
-  /* REGLA Nº3 */
-  #header h1 {
+}
+/* REGLA 3 */
+#header h1 {
     color: white;
     margin: 0;
     padding: 0 20%;
     font-size: 50px;
-    text-shadow: 0 0 20px black;
-  }
-  
-  /* REGLA Nº4 */
-  #main {
-    padding: 0 20%;
-  }
-  
-  /* REGLA Nº5 */
-  #main p {
+    text-shadow: black 20px;
+}
+/* REGLA 4 */
+#main {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+/* REGLA 5 */
+#main p {
     font-size: 20px;
-  }
-  
-  /* REGLA Nº6 */
-  #main h1 {
+}
+/* REGLA 6 */
+#main h1 {
     font-size: 40px;
-  }
-  
-  /* REGLA Nº7 */
-  iframe {
+}
+/* REGLA 7 */
+iframe {
     height: 330px;
     width: 100%;
-  }
-  
-  /* REGLA Nº8 */
-  #spoiler h2 {
-    font-family: 'BhuTuka Expanded One';
-  }
-  
-  /* REGLA Nº9 */
-  img {
+}
+/* REGLA 8 */
+#spoiler {
+    font-family: 'BhuTuka Expanded One', cursive;
+}
+/* REGLA 9 */
+img {
     width: 100%;
-  }
-  
-  /* REGLA Nº10 */
-  .flex {
+}
+/* REGLA 10 */
+.flex {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
+}
